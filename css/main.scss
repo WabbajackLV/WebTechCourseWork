@@ -1,0 +1,80 @@
+$colors:(
+    primary: #f9e0ae,
+    secondary: #fc8621,
+    dark: #c24914,
+    darker: #682c0e
+);
+
+$padding: 15px;
+
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+body, html{
+    height: 100%;
+
+}
+
+body{
+    //font family
+    margin: 0;
+    background-color: color(primary);
+    
+}
+
+
+
+.topnav{
+    background-color: #682c0e;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: color(secondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    
+    &:hover{
+        background-color: color(secondary);
+        color: #582c0e;
+    }
+}
+
+h1{
+    padding-top: 40px;
+    font-size: 4rem;
+    text-align: center;
+    color: color(dark);
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+    color: color(dark);
+}
+
+
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-width: 1rem;
+    color: color(secondary);
+}
+
+.coffeeCup{
+    height: 10rem;
+    float: right;
+    margin: 10px 60px 0 0;
+}
+
+main{
+
+     
+}
