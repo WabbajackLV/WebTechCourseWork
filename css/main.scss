@@ -77,12 +77,72 @@ hr{
 }
 
 .coffeeCup{
+    display: block;
     height: 10rem;
     float: right;
     margin: 10px 60px 0 0;
 }
 
+.offer{
+    margin-top: 300px;
+    font-size: 3rem;
+}
+
 main{
 
      
+}
+
+.offerRow{
+    width: 50%;
+    margin: 200px 0 0 100px;
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+
+.leftImg{
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 40%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 0 87%);
+
+}
+
+.rigthImg{
+    float: right;
+    margin-right: 50px;
+    width: 30%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 65%);
+
+}
+
+
+
+.offerRowRight{
+    width: 100%;
+    margin: 18rem 100px 100px 0;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.lastOffer{
+    margin-top: 40rem;
+}
+
+.paragrRight{
+    margin-right: 20px;
+    margin-top: 0;
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+p{
+    font-size: 1.2rem;
+    color: color(dark);
 }
